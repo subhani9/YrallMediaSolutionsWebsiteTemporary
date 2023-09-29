@@ -16,6 +16,12 @@
         font-size: 16px;
         padding: 29px;
     }
+    .yrall-logo {
+        text-align: center !important;
+        padding-bottom: 120px;
+        float: left;
+        width: 100%;
+    }
     .text-bg h1 {
         font-size: 36px;
         line-height: 59px;
@@ -31,6 +37,18 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .projects::after {
         background: transparent;
+    }
+    .whatsapp-icon img {
+        width: 85px; /* Adjust the size as needed */
+        height: 85px;
+         /* To make it circular */
+        cursor: pointer;
+    }
+    .yrall-logo {
+        text-align: center !important;
+        padding-bottom: 120px;
+        float: left;
+        width: 100%;
     }
     .copyright::after {
         background: transparent;
@@ -57,6 +75,18 @@
     }
     .mean-container .mean-bar {
         margin-top: 0px;
+    }
+    .yrall-logo {
+        text-align: center !important;
+        padding-bottom: 80px;
+        float: left;
+        width: 100%;
+    }
+    .whatsapp-icon img {
+        width: 75px; /* Adjust the size as needed */
+        height: 75px;
+         /* To make it circular */
+        cursor: pointer;
     }
     .text-bg h1 {
         font-size: 50px;
@@ -129,10 +159,17 @@
     .header {
         padding: 12px 0px 0px 0px;
     }
-    .logo {
+    .yrall-logo {
         text-align: center !important;
-        padding-bottom: 6px;
+        padding-bottom: 60px;
         float: left;
+        width: 300px;
+    }
+    .whatsapp-icon img {
+        width: 70px; /* Adjust the size as needed */
+        height: 70px;
+         /* To make it circular */
+        cursor: pointer;
     }
     .text-bg h1 {
         font-size: 33px;

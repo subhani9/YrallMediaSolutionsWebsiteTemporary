@@ -67,12 +67,12 @@ body {
  .whatsapp-icon img {
      width: 90px; /* Adjust the size as needed */
      height: 90px;
-     border-radius: 50%; /* To make it circular */
+      /* To make it circular */
      cursor: pointer;
  }
  
  
- 
+
 #socialmedianav{
      position: relative;
      right: 75px;
@@ -354,12 +354,14 @@ button {
      padding: 30px 30px;
 }
 
-.logo a {
-     font-size: 40px;
+.yrall-logo {
+     font-size: 20px;
      font-weight: bold;
      text-transform: uppercase;
      color: #fff;
      line-height: 40px;
+     padding-bottom: 40px;
+  
 }
 
 .banner_main {
@@ -387,14 +389,17 @@ button {
      line-height: 28px;
      padding: 40px 0;
 }
-
+.text-bg .social_icon{
+     max-width: 100%;
+     padding-left: 50px;
+}
 .text-bg a {
-     font-size: 17px;
+     font-size: 15px;
      background-color: #fff;
      color: #0891f8;
-     padding: 13px 0px;
+     padding: 10px 0px;
      width: 100%;
-     max-width: 190px;
+     /* max-width: 190px; */
      text-align: center;
      display: inline-block;
      transition: ease-in all 0.5s;
@@ -407,7 +412,9 @@ button {
      transition: ease-in all 0.5s;
      border-radius: 26px;
 }
-
+/* .social_icon{
+     padding-left: 20px;
+} */
 .text-img {
      padding-top: 100px;
 }
