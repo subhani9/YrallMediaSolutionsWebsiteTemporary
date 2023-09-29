@@ -65,8 +65,8 @@ body {
  }
  
  .whatsapp-icon img {
-     width: 90px; /* Adjust the size as needed */
-     height: 90px;
+     width: 50px; /* Adjust the size as needed */
+     height: 50px;
      border-radius: 50%; /* To make it circular */
      cursor: pointer;
  }
