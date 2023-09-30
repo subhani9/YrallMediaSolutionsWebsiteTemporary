@@ -9,6 +9,12 @@
     .projects::after {
         width: 262px;
     }
+    .yrall-logo {
+        text-align: center !important;
+        padding-bottom: 40px;
+        float: left;
+        width: 100%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -18,7 +24,7 @@
     }
     .yrall-logo {
         text-align: center !important;
-        padding-bottom: 120px;
+        padding-bottom: 60px;
         float: left;
         width: 100%;
     }
